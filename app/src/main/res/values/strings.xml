@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PracticaUno</string>
+    <string name="titulo">Ingrese el host</string>
+    <string name="host_hint">Host</string>
+    <string name="consultar_btn">Consultar</string>
+    <string name="resultados_tv">Resultados</string>
+    <string name="direccion_local_tv">Dirección local</string>
+    <string name="direccion_loopback_tv">Dirección loopback</string>
+    <string name="direccion_sitio_tv">Dirección del sitio</string>
+    <string name="resultado_local_tv">XXX.XXX.XXX.XXX</string>
+    <string name="resultado_loopback_tv">XXX.XXX.XXX.XXX</string>
+    <string name="resultado_sitio_tv">XXX.XXX.XXX.XXX</string>
+    <string name="regresar_btn">Regresar</string>
+    <string name="margin">50px</string>
+    <string name="host_et">Escribe un host</string>
+</resources>

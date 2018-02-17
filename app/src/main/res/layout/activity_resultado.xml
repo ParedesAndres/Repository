@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultados_tv"
+            android:gravity="center_horizontal"
+            android:textStyle="normal"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/text_size_title"
+            android:layout_marginTop="@dimen/margin_top"
+            android:padding="@dimen/padding"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion_local_tv"
+            android:textStyle="bold"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/text_size_body"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginStart="@dimen/margin_lef"
+            android:layout_marginEnd="@dimen/margin_right"
+            />
+        <TextView
+            android:id="@+id/local_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado_local_tv"
+            android:layout_marginStart="@dimen/margin_lef"
+            android:layout_marginEnd="@dimen/margin_right"
+            android:padding="@dimen/padding"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion_loopback_tv"
+            android:textStyle="bold"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/text_size_body"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginStart="@dimen/margin_lef"
+            android:layout_marginEnd="@dimen/margin_right"
+            />
+        <TextView
+            android:id="@+id/loop_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado_loopback_tv"
+            android:layout_marginStart="@dimen/margin_lef"
+            android:layout_marginEnd="@dimen/margin_right"
+            android:padding="@dimen/padding"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion_sitio_tv"
+            android:textStyle="bold"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/text_size_body"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginStart="@dimen/margin_lef"
+            android:layout_marginEnd="@dimen/margin_right"
+            />
+        <TextView
+            android:id="@+id/sitio_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado_sitio_tv"
+            android:layout_marginStart="@dimen/margin_lef"
+            android:layout_marginEnd="@dimen/margin_right"
+            android:padding="@dimen/padding"
+            />
+
+
+        <Button
+            android:id="@+id/regresar_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/regresar_btn"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginStart="@dimen/margin_lef"
+            android:layout_marginEnd="@dimen/margin_right"
+            />
+</LinearLayout>

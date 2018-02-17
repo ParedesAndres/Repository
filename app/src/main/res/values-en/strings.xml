@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticaUno</string>
+    <string name="titulo">Enter the host</string>
+    <string name="host_hint">Host</string>
+    <string name="consultar_btn">Consult</string>
+    <string name="resultados_tv">Results</string>
+    <string name="direccion_local_tv">Local address</string>
+    <string name="direccion_loopback_tv">Loopback address</string>
+    <string name="direccion_sitio_tv">Web address</string>
+    <string name="resultado_local_tv">XXX.XXX.XXX.XXX</string>
+    <string name="resultado_loopback_tv">XXX.XXX.XXX.XXX</string>
+    <string name="resultado_sitio_tv">XXX.XXX.XXX.XXX</string>
+    <string name="regresar_btn">Back</string>
+</resources>
